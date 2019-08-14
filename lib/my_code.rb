@@ -2,7 +2,7 @@
 def my_own_map (source_array)
  new =[];
  i=0;
- while i <source array.length 
+ while i <source_array.length 
  yeild 
  return new
   end
