@@ -16,7 +16,7 @@ else
   total = source_array[0]
 end 
 while i< source_array.length
-total = yield(total,source_array)
+total = yield(total,source_array[i])
 i+=1 
 end 
 
