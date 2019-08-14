@@ -8,3 +8,5 @@ i+=1
 end 
 new
 end
+
+my_own_map(source_array){|index|index*-1}
