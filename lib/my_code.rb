@@ -1,11 +1,5 @@
 # Your Code Here
 def my_own_map (source_array)
- new =[];
- i=0;
- while i <source_array.length 
- yeild 
- end
- return new
-  end
-  
-  my_own_map(source_array){source_array[i]*-1}
+source_array.map{|index|
+index*-1}
+end
