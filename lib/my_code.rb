@@ -9,12 +9,13 @@ end
 new 
 end
 
-def reduce (source_array,starting_point= nil)
+def reduce (source_array,starting_point= 0)
   if starting_point
 total = starting_point
 
 else 
   total = source_array[0]
+  
 end 
 while i< source_array.length
 total = yield(total,source_array[i])
