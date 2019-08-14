@@ -10,6 +10,7 @@ new
 end
 
 def reduce (source_array,starting_point)
+  
 total = starting_point
 while i< source_array.length
 i+=1 
