@@ -12,5 +12,5 @@ end
 def reduce (source_array,starting_point)
   
 end 
-total
+
 end
