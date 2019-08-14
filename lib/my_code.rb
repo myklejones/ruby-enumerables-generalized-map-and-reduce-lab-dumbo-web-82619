@@ -9,5 +9,5 @@ end
 new 
 end
 
-def reduce (array)
+def reduce ()
   
